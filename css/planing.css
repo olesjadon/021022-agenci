@@ -18,7 +18,7 @@
     object-fit: cover;
     width: 90%;
     height: 70%;
-padding-left: 20%;}
+padding-left: 10%;}
 
 .planing_block>.icon_image {
     width: 150px;
@@ -26,11 +26,12 @@ padding-left: 20%;}
 
     .text-planing_other>.planing_block {
         display: flex;
-        padding-right: 15%;
+        padding-right: 10%;
         gap: 15px;
     }
     .travel_planing_text {
         padding-right: 10%;
+        padding-right: 2%;
         text-align: justify;
     }
     

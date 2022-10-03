@@ -1,0 +1,12 @@
+@media(min-width:600px) {
+    .special_offers_text {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        }}
+
+        @media(min-width:600px) {
+            .special_offers_foto {
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                              }}
