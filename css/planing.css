@@ -3,8 +3,8 @@
         display: grid;
         grid-template-columns: repeat(8, 1fr);
        grid-template-rows: repeat(8, 5vw);
-        border: solid;
-        padding: 15px;
+              padding: 15px;
+        object-fit: cover;
                 }
 }
 .travel_planing>h2 {
