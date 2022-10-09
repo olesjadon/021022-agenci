@@ -292,26 +292,79 @@
 <p class="w-section_content_text_top">The Cilantro provides a wide selection of venues around Paris to help save your money. Here you can find a variety of exceptional Paris tours, discount dinners, free entry to the main attractions, and other exclusive offers.
 </p>
 </div>
+
 <div class="gallery-stacked_section">
+         <!-- Next/previous controls -->
+        
   <figure class="gallery__item galler__item--1">
-  <img class="gallery__image" src="img/zima.jpg" alt="winter">
+  <img class="galery-image" src="img/zima.jpg" alt="winter" onclick="openLightbox();toSlide(1)" >
   </figure>
   <figure class="gallery__item galler__item--2">
-  <img class="gallery__image" src="img/zozero.jpg" alt="lake">
+  <img class="galery-image" src="img/zozero.jpg" alt="lake" onclick="openLightbox();toSlide(2)" >
   </figure>
   <figure class="gallery__item galler__item--3">
-  <img class="gallery__image" src="img/seameny.jpeg" alt="gulf bild">
+  <img class="galery-image" src="img/seameny.jpeg" alt="gulf bild" onclick="openLightbox();toSlide(3)" >
   </figure>
   <figure class="gallery__item galler__item--4">
-    <img class="gallery__image" src="img/zeifele.jpeg" alt="eifeleva">
+    <img class="galery-image" src="img/zeifele.jpeg" alt="eifeleva" onclick="openLightbox();toSlide(4)" >
   </figure>
   <figure class="gallery__item galler__item--5">
-  <img class="gallery__image" src="img/seabild.jpg" alt="bild">
+  <img class="galery-image" src="img/seabild.jpg" alt="bild" onclick="openLightbox();toSlide(5)" >
   </figure>
   <figure class="gallery__item galler__item--6">
-    <img class="gallery__image" src="img/zamok.jpeg" alt="lake">
+    <img class="galery-image" src="img/zamok.jpeg" alt="case" onclick="openLightbox();toSlide(6)" >
   </figure>
 </div>
+
+<div id="Lightbox" class="modal">
+  <span class="close pointer" onclick="closeLightbox()">&times;</span>
+  <div class="modal-content">
+   <div class="slide">
+      <img src="img/zima.jpg" class="image-slide" alt="winter">
+    </div>
+    <div class="slide">
+      <img src="img/zozero.jpg" class="image-slide" alt="lake">
+      /<div>
+        <div class="slide">
+          <img src="img/seameny.jpeg" class="image-slide" alt="gulf bild">
+        </div>
+            <div class="slide">
+              <img src="img/zeifele.jpeg" class="image-slide" alt="eifeleva">
+            </div>
+                <div class="slide">
+                  <img src="img/seabild.jpg" class="image-slide" alt="bild">
+                </div>
+                    <div class="slide">
+                      <img src="img/zamok.jpeg"  class="image-slide" alt="case">
+                    </div>
+                        <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+                        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+                       
+<div class="dots">
+  <div class="gallery-stacked_section">
+    <img class="modal-preview hover-shadow" src="img/zima.jpg" onclick="toSlide(1)" alt="winter"></div>
+  
+    <div class="gallery-stacked_section">
+  <img class="modal-preview hover-shadow" src="img/zozero.jpg" onclick="toSlide(2)" alt="lake"></div>
+
+  <div class="gallery-stacked_section">
+    <img class="modal-preview hover-shadow" src="img/seameny.jpeg" onclick="toSlide(3)" alt="gulf bild"></div>
+  
+    <div class="gallery-stacked_section">
+      <img class="modal-preview hover-shadow" src="img/zeifele.jpeg" onclick="toSlide(4)" alt="eifeleva"></div>
+
+      <div class="gallery-stacked_section">
+        <img class="modal-preview hover-shadow" src="img/seabild.jpg" onclick="toSlide(5)" alt="bild"></div>
+        
+        <div class="gallery-stacked_section">
+          <img class="modal-preview hover-shadow" src="img/zamok.jpeg" onclick="toSlide(6)" alt="like"></div>
+</div>
+                    </div>
+                  </div>
+  </div>
+</div>
+
 </section>
 
 
@@ -612,6 +665,8 @@
   <script src="js/war-timer.js"></script>
   <script src="js/contact-form-formspree.js"></script>
   <script src="js/instagram-modal.js"></script>
+  <script src="js/column.js"></script>
+ 
 </body>
 
 </html>

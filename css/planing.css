@@ -1,11 +1,9 @@
 @media(min-width:600px) {
     .travel_planing_professional {
         display: grid;
-        grid-template-columns: repeat(8, 1fr);
-       grid-template-rows: repeat(8, 5vw);
-              padding: 15px;
-        object-fit: cover;
-                }
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        }
 }
 .travel_planing>h2 {
     text-align: center;
@@ -17,11 +15,10 @@
     
 }
 .planing_foto {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    }
+    object-fit: cover;
+    width: 90%;
+    height: 70%;
+padding-left: 10%;}
 
 .planing_block>.icon_image {
     width: 150px;
@@ -30,16 +27,12 @@
     .text-planing_other>.planing_block {
         display: flex;
         padding-right: 10%;
-      
+        gap: 15px;
     }
     .travel_planing_text {
-    grid-column-start: 5;
-    grid-column-end: 8;
-    grid-row-start: 1;
-    grid-row-end: 6;
-    border-left: 15px;
-    text-align:justify ;
-    padding: 10px;
+        padding-right: 10%;
+        padding-right: 2%;
+        text-align: justify;
     }
     
     
